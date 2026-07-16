@@ -1,5 +1,6 @@
 import "./About.css";
 import logo from "../assets/Logo_512x353.webp";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -14,9 +15,9 @@ function About() {
         </div>
 
         <nav>
-          <a href="/">Home</a>
-          <a href="/features">Features</a>
-          <a href="/about">About</a>
+          <Link to="/">Home</Link>
+          <Link to="/features">Features</Link>
+          <Link to="/about">About</Link>
         </nav>
 
       </header>
