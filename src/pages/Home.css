@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain";
+  src: url("/fonts/Zain-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zain", sans-serif;
+}
+
+.home{
+
+    min-height:100vh;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+.navbar{
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    height: 80px;
+    background: #1f8b3f;
+    padding: 0 30px;
+
+}
+
+.logo-container{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container img{
+
+    height: 70px;
+    width: auto;
+
+}
+
+.logo-container h2{
+
+    color:white;
+    font-size:28px;
+
+}
+
+nav{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 50px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.2s;
+
+}
+
+nav a:hover{
+
+    color:#dff5d6;
+
+}
+
+/* ---------------- HERO ---------------- */
+
+
+
+.hero{
+
+    height:calc(100vh - 80px);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-card{
+
+    width:520px;
+
+    background:rgba(255,255,255,.93);
+
+    border-radius:25px;
+
+    padding:50px;
+
+    text-align:center;
+
+    backdrop-filter:blur(6px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.hero-logo{
+
+    width:120px;
+
+    margin-bottom:25px;
+
+}
+
+.hero h1{
+
+    color:#226837;
+
+    font-size:58px;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    color:#36523c;
+
+    margin-bottom:35px;
+
+}
+
+.launch-btn{
+
+  background-color: rgb(26 120 57);
+  color: rgb(255 255 255);
+  min-width: 8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.75rem;
+
+}
+
+.launch-btn:hover{
+
+  background-color: rgb(31 140 67);
+
+}
