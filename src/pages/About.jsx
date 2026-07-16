@@ -15,8 +15,8 @@ function About() {
         </div>
 
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/features">Features</Link>
+          <Link to="https://enzomessaoudi.github.io/Landing_Page/#/">Home</Link>
+          <Link to="https://enzomessaoudi.github.io/Landing_Page/#/features">Features</Link>
           <Link to="/about">About</Link>
         </nav>
 
